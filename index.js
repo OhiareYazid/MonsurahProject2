@@ -18,7 +18,7 @@ app.get('/api', (req, res) => {
   const utcTimeString = utcTime.toISOString();
 
   // Construct GitHub URLs based on your repository and file names
-  const githubRepoURL = 'https://github.com/OhiareYazid/BreadcrumbsMonsurahProject2';
+  const githubRepoURL = 'https://github.com/OhiareYazid/MonsurahProject2';
   const githubFileName = 'index.js';
   const githubFileURL = `${githubRepoURL}/blob/main/${githubFileName}`;
 
