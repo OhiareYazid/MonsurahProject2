@@ -20,7 +20,7 @@ app.get('/api', (req, res) => {
   // Construct GitHub URLs based on your repository and file names
   const githubRepoURL = 'https://github.com/OhiareYazid/MonsurahProject2';
   const githubFileName = 'index.js';
-  const githubFileURL = `${githubRepoURL}/blob/main/${githubFileName}`;
+  const githubFileURL = `${githubRepoURL}/blob/master/${githubFileName}`;
 
   // Response JSON object
   const response = {
